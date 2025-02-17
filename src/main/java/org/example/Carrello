@@ -4,7 +4,7 @@ Public class Carrello{
     public Carello(MetodoPagamento metodo){
         this.metodo = metodo;
     }
-    public void paga(){
+    public void paga(){ 
         metodo.paga();
     }
 }
